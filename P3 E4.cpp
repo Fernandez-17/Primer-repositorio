@@ -3,6 +3,7 @@ using namespace std;
 int main(){
 	int suma=0, n; 
 	string rpta;
+	cout<<"Bienvenido."<<endl;
 	do
 	{
 		cout<<"Ingresar el gasto :";
