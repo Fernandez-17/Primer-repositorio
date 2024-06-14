@@ -4,6 +4,8 @@ int main(){
 	int suma=0, n; 
 	string rpta;
 	cout<<"Bienvenido."<<endl;
+	cout<<"Codigo para pedir gastos."<<endl;
+	
 	do
 	{
 		cout<<"Ingresar el gasto :";
