@@ -4,7 +4,6 @@ int main(){
 	int suma=0, n; 
 	string rpta;
 	cout<<"Bienvenido."<<endl;
-	cout<<"Codigo para pedir gastos."<<endl;
 	
 	do
 	{
@@ -17,6 +16,7 @@ int main(){
 		suma=suma+n;
 	}
 	while(rpta=="si");
-	cout<<"La suma total es :"<<suma;
+	cout<<"La suma total es :"<<suma<<endl;
+	cout<<"Tenga un buen dia.";
 	return 0;
 }
