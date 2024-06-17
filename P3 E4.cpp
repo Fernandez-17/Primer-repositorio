@@ -4,7 +4,7 @@ int main(){
 	int suma=0, n; 
 	string rpta;
 	cout<<"Bienvenido."<<endl;
-	
+	cout<<"Me presento, Soy Franklin y hoy lo atendere."<<endl;
 	do
 	{
 		cout<<"Ingresar el gasto :";
