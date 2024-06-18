@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-	int suma=0, n; 
+	int suma=0, n, pago, vuelto;
 	string rpta;
 	cout<<"Bienvenido."<<endl;
 	cout<<"Me presento, Soy Franklin y hoy lo atendere."<<endl;
@@ -17,6 +17,14 @@ int main(){
 	}
 	while(rpta=="si");
 	cout<<"La suma total es :"<<suma<<endl;
-	cout<<"Tenga un buen dia.";
+	cout<<"Con cuanto va a pagar :";
+	cin>>pago;
+	if( pago>=suma){
+		vuelto=pago-suma;
+		cout<<"Su vuelto es :"<<vuelto<<endl;
+	} else{
+		cout<<"El dinero que me dio es insuficiente.";
+	}
+	cout<<"Tenga un buen dia."<<endl;
 	return 0;
 }
