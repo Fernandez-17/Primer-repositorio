@@ -3,7 +3,8 @@ using namespace std;
 int main(){
 	int suma=0, n, pago, vuelto;
 	string rpta;
-	cout<<"Bienvenido a mi tienda."<<endl;
+	cout<<"Bienvenido al sistema de calculos"<<endl;
+	cout<<"*********************************"<<endl;
 	cout<<"Me presento, Soy Franklin y hoy lo atendere."<<endl;
 	do
 	{
