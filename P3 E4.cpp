@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-	int suma=0, n, pago, vuelto;
+	int suma=0, numero, pago, vuelto;
 	string rpta;
 	cout<<"Bienvenido al sistema de calculos"<<endl;
 	cout<<"*********************************"<<endl;
@@ -9,12 +9,12 @@ int main(){
 	do
 	{
 		cout<<"Ingresar el gasto :";
-		cin>>n;
+		cin>>numero;
 		cout<<"Desea escribir mas gastos(si/no)? :"<<endl;
 		
 		cout<<"rpta :";
 		cin>>rpta;
-		suma=suma+n;
+		suma=suma+numero;
 	}
 	while(rpta=="si");
 	cout<<"La suma total es :"<<suma<<endl;
